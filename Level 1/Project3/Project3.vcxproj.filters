@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitmap_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glaux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iGraphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="level1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Glaux.lib" />
+    <Library Include="GLU32.LIB" />
+    <Library Include="glui32.lib" />
+    <Library Include="glut32.lib" />
+    <Library Include="OPENGL32.LIB" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GLUT32.DLL" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="iMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\button-credits-hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button-exit-hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button-help-hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button-new-game-hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button-settings-hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\card 1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\card 2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\card 3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\card 4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\card 5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\card 6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\card back.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ESC_background.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\game screen 1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\game starting screen.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\game-scenario-start.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\game-scenario-start.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\idle 1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\idle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump left_0000_jump right  10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump left_0001_jump right  9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump left_0002_jump right  8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump left_0003_jump right  7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump left_0004_jump right  6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump left_0005_jump right  5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump left_0006_jump right  4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump left_0007_jump right  3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump left_0008_jump right  2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump left_0009_jump right 1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump right  2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump right  3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump right  4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump right  5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump right  6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump right  7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump right  8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump right  9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump right  10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jump right 1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\left 1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\left 2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\left 3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\left 4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\left 5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\left 6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\left 7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\left 8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\left 9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\left 10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\left 11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\level 2 background.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\map frame 1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\menu-screen.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\menu-screen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\mob 1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\mob 2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\mob 3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\mob 4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\mob 5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\mob 6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\mob 7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\mob 8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\mob 9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\mob 10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\mob 11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\mob 12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\mob 13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\mob 14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\platform 1 final.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\rest 1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\rest 2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\rest 3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\rest 4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\rest 5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\rest 6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\right 1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\right 2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\right 3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\right 4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\right 5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\right 6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\right 7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\right 8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\right 9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\right 10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\right 11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword left_0000_sword right 12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword left_0001_sword right 11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword left_0002_sword right 10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword left_0003_sword right 9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword left_0004_sword right 8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword left_0005_sword right 7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword left_0006_sword right 6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword left_0007_sword right 5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword left_0008_sword right 4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword left_0009_sword right 3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword left_0010_sword right 2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword left_0011_sword right 1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword right _0000_sword right 12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword right _0001_sword right 11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword right _0002_sword right 10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword right _0003_sword right 9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword right _0004_sword right 8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword right _0005_sword right 7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword right _0006_sword right 6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword right _0007_sword right 5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword right _0008_sword right 4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword right _0009_sword right 3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword right _0010_sword right 2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sword right _0011_sword right 1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

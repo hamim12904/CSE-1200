@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E3FFC684-4800-4BBB-8D36-54ECFF8E3092}</ProjectGuid>
+    <RootNamespace>Project3</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="bitmap_loader.h" />
+    <ClInclude Include="glaux.h" />
+    <ClInclude Include="glut.h" />
+    <ClInclude Include="iGraphics.h" />
+    <ClInclude Include="level1.hpp" />
+    <ClInclude Include="stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Glaux.lib" />
+    <Library Include="GLU32.LIB" />
+    <Library Include="glui32.lib" />
+    <Library Include="glut32.lib" />
+    <Library Include="OPENGL32.LIB" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GLUT32.DLL" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="iMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\button-credits-hover.png" />
+    <Image Include="images\button-exit-hover.png" />
+    <Image Include="images\button-help-hover.png" />
+    <Image Include="images\button-new-game-hover.png" />
+    <Image Include="images\button-settings-hover.png" />
+    <Image Include="images\card 1.bmp" />
+    <Image Include="images\card 2.bmp" />
+    <Image Include="images\card 3.bmp" />
+    <Image Include="images\card 4.bmp" />
+    <Image Include="images\card 5.bmp" />
+    <Image Include="images\card 6.bmp" />
+    <Image Include="images\card back.bmp" />
+    <Image Include="images\ESC_background.bmp" />
+    <Image Include="images\game screen 1.bmp" />
+    <Image Include="images\game starting screen.bmp" />
+    <Image Include="images\game-scenario-start.bmp" />
+    <Image Include="images\game-scenario-start.png" />
+    <Image Include="images\idle 1.bmp" />
+    <Image Include="images\idle.bmp" />
+    <Image Include="images\jump left_0000_jump right  10.bmp" />
+    <Image Include="images\jump left_0001_jump right  9.bmp" />
+    <Image Include="images\jump left_0002_jump right  8.bmp" />
+    <Image Include="images\jump left_0003_jump right  7.bmp" />
+    <Image Include="images\jump left_0004_jump right  6.bmp" />
+    <Image Include="images\jump left_0005_jump right  5.bmp" />
+    <Image Include="images\jump left_0006_jump right  4.bmp" />
+    <Image Include="images\jump left_0007_jump right  3.bmp" />
+    <Image Include="images\jump left_0008_jump right  2.bmp" />
+    <Image Include="images\jump left_0009_jump right 1.bmp" />
+    <Image Include="images\jump right  10.bmp" />
+    <Image Include="images\jump right  2.bmp" />
+    <Image Include="images\jump right  3.bmp" />
+    <Image Include="images\jump right  4.bmp" />
+    <Image Include="images\jump right  5.bmp" />
+    <Image Include="images\jump right  6.bmp" />
+    <Image Include="images\jump right  7.bmp" />
+    <Image Include="images\jump right  8.bmp" />
+    <Image Include="images\jump right  9.bmp" />
+    <Image Include="images\jump right 1.bmp" />
+    <Image Include="images\left 1.bmp" />
+    <Image Include="images\left 10.bmp" />
+    <Image Include="images\left 11.bmp" />
+    <Image Include="images\left 2.bmp" />
+    <Image Include="images\left 3.bmp" />
+    <Image Include="images\left 4.bmp" />
+    <Image Include="images\left 5.bmp" />
+    <Image Include="images\left 6.bmp" />
+    <Image Include="images\left 7.bmp" />
+    <Image Include="images\left 8.bmp" />
+    <Image Include="images\left 9.bmp" />
+    <Image Include="images\level 2 background.bmp" />
+    <Image Include="images\map frame 1.bmp" />
+    <Image Include="images\menu-screen.bmp" />
+    <Image Include="images\menu-screen.png" />
+    <Image Include="images\mob 1.bmp" />
+    <Image Include="images\mob 10.bmp" />
+    <Image Include="images\mob 11.bmp" />
+    <Image Include="images\mob 12.bmp" />
+    <Image Include="images\mob 13.bmp" />
+    <Image Include="images\mob 14.bmp" />
+    <Image Include="images\mob 2.bmp" />
+    <Image Include="images\mob 3.bmp" />
+    <Image Include="images\mob 4.bmp" />
+    <Image Include="images\mob 5.bmp" />
+    <Image Include="images\mob 6.bmp" />
+    <Image Include="images\mob 7.bmp" />
+    <Image Include="images\mob 8.bmp" />
+    <Image Include="images\mob 9.bmp" />
+    <Image Include="images\platform 1 final.bmp" />
+    <Image Include="images\rest 1.bmp" />
+    <Image Include="images\rest 2.bmp" />
+    <Image Include="images\rest 3.bmp" />
+    <Image Include="images\rest 4.bmp" />
+    <Image Include="images\rest 5.bmp" />
+    <Image Include="images\rest 6.bmp" />
+    <Image Include="images\right 1.bmp" />
+    <Image Include="images\right 10.bmp" />
+    <Image Include="images\right 11.bmp" />
+    <Image Include="images\right 2.bmp" />
+    <Image Include="images\right 3.bmp" />
+    <Image Include="images\right 4.bmp" />
+    <Image Include="images\right 5.bmp" />
+    <Image Include="images\right 6.bmp" />
+    <Image Include="images\right 7.bmp" />
+    <Image Include="images\right 8.bmp" />
+    <Image Include="images\right 9.bmp" />
+    <Image Include="images\sword left_0000_sword right 12.bmp" />
+    <Image Include="images\sword left_0001_sword right 11.bmp" />
+    <Image Include="images\sword left_0002_sword right 10.bmp" />
+    <Image Include="images\sword left_0003_sword right 9.bmp" />
+    <Image Include="images\sword left_0004_sword right 8.bmp" />
+    <Image Include="images\sword left_0005_sword right 7.bmp" />
+    <Image Include="images\sword left_0006_sword right 6.bmp" />
+    <Image Include="images\sword left_0007_sword right 5.bmp" />
+    <Image Include="images\sword left_0008_sword right 4.bmp" />
+    <Image Include="images\sword left_0009_sword right 3.bmp" />
+    <Image Include="images\sword left_0010_sword right 2.bmp" />
+    <Image Include="images\sword left_0011_sword right 1.bmp" />
+    <Image Include="images\sword right _0000_sword right 12.bmp" />
+    <Image Include="images\sword right _0001_sword right 11.bmp" />
+    <Image Include="images\sword right _0002_sword right 10.bmp" />
+    <Image Include="images\sword right _0003_sword right 9.bmp" />
+    <Image Include="images\sword right _0004_sword right 8.bmp" />
+    <Image Include="images\sword right _0005_sword right 7.bmp" />
+    <Image Include="images\sword right _0006_sword right 6.bmp" />
+    <Image Include="images\sword right _0007_sword right 5.bmp" />
+    <Image Include="images\sword right _0008_sword right 4.bmp" />
+    <Image Include="images\sword right _0009_sword right 3.bmp" />
+    <Image Include="images\sword right _0010_sword right 2.bmp" />
+    <Image Include="images\sword right _0011_sword right 1.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
