@@ -76,7 +76,7 @@ Make sure you have the following installed:
 [▶️ CSE 1200 | Breakout Gameplay](https://youtu.be/n63FXejBiYs)
 
 ### Project Report:
-[Project report of Breakout](https://drive.google.com/file/d/1fF_pehwaU-V4jKYLLdrydaoOxNnS1Dgp/view?usp=sharing)
+[Project report of Breakout](https://drive.google.com/drive/folders/1E5Ths5q6IRXXeHQYw7OgIy-UjeRtNtPt?usp=drive_link)
 
 
 ## Project Contributors
